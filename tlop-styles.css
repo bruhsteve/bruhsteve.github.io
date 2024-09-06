@@ -71,6 +71,10 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
+#released {
+    margin-bottom: 15px;
+}
+
 .overlap img {
     width: 25%;
     height: auto;
@@ -103,7 +107,7 @@ nav ul li a:hover {
 }
 
 .track-button {
-    background-color: #f2a541;
+    background-color: #FFDBBB;
     color: #000;
     border: none;
     padding: 10px 20px;
@@ -119,13 +123,20 @@ nav ul li a:hover {
 section {
     margin: 40px 20px 20px 10px;
     padding: 20px;
-    border: 2px solid white;
-    background-color: #f78c58;
+    border: 4px solid white;
+    background-color: #f8ae89;
     border-radius: 5px;
 }
-
+.content-section {
+    background-image: url('lifeofpablo-1067x600.jpg');
+}
 .tlopvid {
     float: left;
+
+}
+#listeningpartyvid {
+    border: 5px solid white;
+    margin: 20px;
 }
 
 p{
@@ -139,4 +150,27 @@ p{
 .desc {
     float: right;
     text-align: left;
+}
+
+.albumcover {
+    float:left;
+    border: 5px solid white;
+    margin: 20px;
+}
+#perfdesc {
+    float:right;
+}
+.stage {
+    float:right;
+    margin: 20px;
+    border: 5px solid white;
+
+}
+
+#albumcoverdesc {
+    float: left;
+}
+
+#7th {
+    margin: 10px;
 }
