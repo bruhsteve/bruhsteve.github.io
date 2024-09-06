@@ -160,3 +160,7 @@ p {
     float:left;
 }
 html {zoom: 80%;} 
+
+p{
+    font-size: 1.5em;
+}

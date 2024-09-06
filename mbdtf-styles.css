@@ -163,3 +163,7 @@ ul li {
     float:right;
 }
 html {zoom: 60%;} 
+
+p {
+    font-size: 1.5em;
+}
