@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #732a2a;
+    color: #d4af37;
+    margin: 0;
+    padding: 0;
+
+}
+
+h2, h3 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #d4af37;
+}
+
+p {
+    margin: 20px auto;
+    width: 80%;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    padding: 20px;
+    border-bottom: 5px solid #d4af37;
+    background-color: #3d261b;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 7em;
+    margin: 0;
+}
+.nav {
+    font-weight: bold;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Section Styles */
+main {
+    padding: 20px;
+}
+img {
+    text-align-last: right;
+}
+
+section {
+    margin: 40px 20px 20px 10px;
+    padding: 20px;
+    border: 2px solid #d4af37;
+    background-color: #3d261b;
+    border-radius: 15px;
+}
+
+
+.albumcover {
+    float:left;
+}
+.ttwvid {
+    float:right;
+
+}
+section h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.song {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #d4af37;
+    background-color: #5a2d2d;
+    border-radius: 10px;
+}
+
+.song h3 {
+    margin: 0 0 10px 0;
+}
+
+
+/* Footer Styles */
+footer {
+    position: sticky;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #d4af37;
+    background-color: #3d261b;
+}
+
+footer p {
+    margin: 0;
+    color: #d4af37;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    p {
+        width: 95%;
+    }
+
+    section {
+        margin: 20px 0;
+    }
+}

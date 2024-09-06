@@ -1,0 +1,142 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #f2a541; /* Orange background */
+    font-family: 'Helvetica', sans-serif; /* Bold sans-serif font */
+    color: #000; /* Black text color */
+}
+
+/* Container for the main content */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+.nav {
+    font-weight: bold;
+    background-color: #f2a541;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Headline styling */
+.headline {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/* Text grid */
+.text-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+
+.text-grid p {
+    font-size: 2.5em;
+    text-align: left;
+}
+
+/* Image styling */
+.overlap {
+    position: relative;
+    margin-top: 20px;
+}
+
+.overlap img {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlap .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Additional content styling */
+.additional-content {
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: left;
+}
+.track-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.track-button {
+    background-color: #f2a541;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.track-button:hover {
+    background-color: white;
+}
+
+section {
+    margin: 40px 20px 20px 10px;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: #f78c58;
+    border-radius: 5px;
+}
+
+.tlopvid {
+    float: left;
+}
+
+p{
+    font-weight: bold;
+}
+
+.viddesc {
+    float: right;
+    text-align: left;
+}
+.desc {
+    float: right;
+    text-align: left;
+}

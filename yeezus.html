@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YEEZUS: A Deep Dive</title>
+    <link rel="stylesheet" href="yeezus-styles.css">
+</head>
+<body>
+    <header class = "nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">The College Dropout</a></li>
+                <li><a href="mbdtf.html">My Beautiful Dark Twisted Fantasy</a></li>
+                <li><a href="yeezus.html">Yeezus</a></li>
+                <li><a href="the-life-of-pablo.html">The Life of Pablo</a></li>
+                <li><a href="ye.html">Ye</a></li>
+            </ul>
+        </nav>
+        </header>
+    <header>
+        <div class="header-content">
+            <img src="yeezus.jpg" alt="Yeezus Album Cover" class="album-cover">
+            <h1>YEEZUS: A Deep Dive</h1>
+        </div>
+    </header>
+
+    <section class = "pictures">
+        <img src="kanye yeezus.jpg" class = "albumcover" alt = "tcd albumcover" width = "600" height = "372">
+        <p> Kanye during his Yeezus tour.</p>
+    </section>
+  
+    <section id="home" class="intro-section">
+        <h2>The Radical Impact of Yeezus</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use</p>
+    </section>
+
+    <section id="analysis" class="content-section">
+        <h2>Analysis</h2>
+        <div class="sub-section">
+            <h3>Production</h3>
+            <p>"Yeezus" is known for its raw, minimalistic beats, heavily influenced by industrial music, distortion, and electronic soundscapes...It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use</p>
+        </div>
+        <div class="sub-section">
+            <h3>Lyrics</h3>
+            <p>The lyrics of "Yeezus" tackle themes such as power, identity, and consumerism, with a blend of aggression and introspection...</p>
+        </div>
+        <div class="sub-section">
+            <h3>Cultural Impact</h3>
+            <p>"Yeezus" challenged the conventions of mainstream music, leaving a lasting mark on the industry...</p>
+        </div>
+    </section>
+    <section id = "samplevid"> 
+        <video width="854x" height="480px" controls="controls">
+            <source src= "Every Sample From Kanye West's Yeezus.mp4" type="video/mp4" />
+        </video>
+    </section>
+      <script>
+        var aud = document.getElementById("ASong").children[0];
+        var isPlaying = false;
+        aud.pause();
+      
+        function playPause() {
+          if (isPlaying) {
+            aud.pause();
+          } else {
+            aud.play();
+          }
+          isPlaying = !isPlaying;
+        }
+      </script>
+    <section id="tracks" class="content-section">
+        <h2>Notable Tracks</h2>
+        <div class="track-list">
+            <button class="track-button" id = "onSight" onClick ="playPause()">
+                <audio
+                    src = "On Sight.mp3"
+                    autoplay
+                    loop
+                    ></audio>
+                    1. On Sight
+                    </button>
+            <button class="track-button" id = "I Am A God" onClick ="playPause2()">
+                <audio
+                    src = "I Am A God.mp3"
+                    autoplay
+                    loop
+                    ></audio>
+                    2. I Am A God
+                    </button>
+            <button class="track-button" id = "Bound 2" onClick ="playPause3()">
+                <audio
+                    src = "Kanye West - Bound 2 (audio).mp3"
+                    autoplay
+                    loop
+                    ></audio>
+                    3. Bound 2
+                    </button>
+            <!-- Add more tracks as needed -->
+
+        </div>
+    </section>
+
+    <section id="legacy" class="content-section">
+        <h2>Legacy</h2>
+        <p>The influence of "Yeezus" on contemporary music is undeniable, setting the stage for new sounds and challenging the status quo...</p>
+    </section>
+
+</body>
+
+</html>
+<script>
+    var aud = document.getElementById("onSight").children[0];
+    var isPlaying = false;
+    aud.pause();
+  
+    function playPause() {
+        if (isPlaying2) {
+        aud2.pause();
+        aud.play();
+        isPlaying = true;
+        isPlaying2 = false;
+      } else if (isPlaying3) {
+        aud3.pause();
+        aud.play();
+        isPlaying = true;
+        isPlaying3 = false;
+      } else if (isPlaying) {
+        aud.pause();
+        isPlaying = false;
+      } else {
+        aud.play();
+        isPlaying = true;
+      }      
+    }
+  </script>
+  <script>
+    var aud2 = document.getElementById("I Am A God").children[0];
+    var isPlaying2 = false;
+    aud2.pause();
+  
+    function playPause2() {
+        if (isPlaying) {
+        aud.pause();
+        aud2.play();
+        isPlaying2 = true
+        isPlaying = false;
+      } else if (isPlaying3) {
+        aud3.pause();
+        aud2.play();
+        isPlaying2 = true;
+        isPlaying3 = false;
+      } else if (isPlaying2) {
+        aud2.pause();
+        isPlaying2 = false;
+      } else {
+        aud2.play();
+        isPlaying2 = true;
+      }      
+    }
+  </script>
+  <script>
+    var aud3 = document.getElementById("Bound 2").children[0];
+    var isPlaying3 = false;
+    aud3.pause();
+  
+    function playPause3() {
+        if (isPlaying2) {
+        aud2.pause();
+        aud3.play();
+        isPlaying3 = true;
+        isPlaying2 = false;
+      } else if (isPlaying) {
+        aud.pause();
+        aud3.play();
+        isPlaying3 = true;
+        isPlaying = false;
+      } else if (isPlaying3) {
+        aud3.pause();
+        isPlaying3 = false;
+      } else {
+        aud3.play();
+        isPlaying3 = true;
+      }      
+    }
+  </script>
